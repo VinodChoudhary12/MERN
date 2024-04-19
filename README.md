@@ -21,14 +21,14 @@ Binding Data (Number, String , Object and Array) into JSX
 
 Section 2 – Component State and Binding
 
-State Introduction
-Data Binding in Component
-Event Binding in Component
-setState() function
-ref in Component
-Styling in Components
-Attach Bootstrap in Project
-Form and onSubmit() Event
+*State Introduction
+*Data Binding in Component
+*Event Binding in Component
+*setState() function
+*ref in Component
+*Styling in Components
+*Attach Bootstrap in Project
+*Form and onSubmit() Event
 
 *1. Create numeric state and change its value on button click event.
 *2. Increment and Decrement Numeric State Value.
