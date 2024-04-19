@@ -6,7 +6,7 @@ we can write a function body or code that can be used to perform the work later.
 
 For Redux specifically, "thunks" are a pattern of writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
 
-* Calling an API is not so straightforward while using the redux toolkit, and that’s why redux has a middleware name “createAsyncThunk()” which provided us with all the superpowers needed for handling API and response.*
+* Calling an API is not so straightforward while using the redux toolkit, and that’s why redux has a middleware name “createAsyncThunk()” which provided us with all the superpowers needed for handling API and response.
   
  
 
@@ -33,6 +33,6 @@ Step 6 – The store data is displayed back to frontend using useSelector hook
 Let’s create Slice now
 Slice is the only file that will contain all the things needed to perform our operation
 
-*initialState
-*reducers
-*extraReducers
+* initialState
+* reducers
+* extraReducers
