@@ -1,8 +1,8 @@
-# React + Vite
+The word "thunk" is a programming term that means "a piece of code that does some delayed work". 
+Rather than execute some logic now, we can write a function body or code that can be used to perform the work later.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For Redux specifically, "thunks" are a pattern of writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Calling an API is not so straightforward while using the redux toolkit, and that’s why redux has a middleware name “createAsyncThunk()” which provided us with all the superpowers needed for handling API and response.*
+*
+* ![Thunk](https://github.com/VinodChoudhary12/MERN/assets/140074392/0ec84aac-ec2e-4d03-94ba-bb70a0e81eef)
