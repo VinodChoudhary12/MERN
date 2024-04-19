@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "myshop"
+	},
+	{
+		"path": "../NodeVideo/mvc-node/mvc-node"
+	},
+	{
+		"path": "testRedux"
+	}
+],
+  "settings": {}
+}

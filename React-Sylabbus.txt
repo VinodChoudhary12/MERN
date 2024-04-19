@@ -1,0 +1,124 @@
+
+
+
+Section 1 – React Introduction
+
+React Introduction and Setup
+React Project Structure
+Import and Export Module
+Component Introduction (Class and Function)
+Class Component and render()
+JSX Introduction
+Binding Data (Number, String , Object and Array) into JSX
+
+*1. Create Class Component and design UI with render() function.
+*2. Create Multiple Component and Showing in App Component.
+*3. Show variables in JSX.
+*4. Show Object and Array in JSX.
+
+#1. Show Array of Objects in JSX
+#2. Create Multiple Component and Show into another.
+
+Section 2 – Component State and Binding
+
+State Introduction
+Data Binding in Component
+Event Binding in Component
+setState() function
+ref in Component
+Styling in Components
+Attach Bootstrap in Project
+Form and onSubmit() Event
+
+*1. Create numeric state and change its value on button click event.
+*2. Increment and Decrement Numeric State Value.
+*3. Create Dynamic Friend List with add and delete operation. All friends name show in unordered list. When user click on any list item show name in alert box;
+*4. Student Management Record Program with Full CRUD Operations. rollnumber , name , email , city , branch , physics , chemistry , maths
+Note : 1. Email and rollNumber not duplicate
+RollNumber, name , Email, branch , physics , chemistry , maths are
+mandatory
+
+#1. Student Marksheet Generate Program #2. Basic Calculator
+#3. Create a slider with 10 images in javascript with next and previous button. #4. Create a Stopwatch.
+
+Section 3 – Props and Context
+
+Props Introduction
+Parent and Child Communication
+Props Drilling
+Context in Class Component
+
+*1. Send Data from Parent Component to Child Component.
+*2. Send Data from Child Component to Parent Component.
+*3. Student Management Project with Props.
+*4. Props Drilling Problem solve with Context.
+
+#1. Change the Parent Component State from Child Component. #2. Send Data between Sibling Components.
+#3. Manage Multiple Students Exam Details with Props (individual exam data is a seperate component) :
+Exam Details : RollNumber , Name , Branch , Physics , Chemistry , Maths Operations : 1. Add Exam Details
+Delete Exam
+Filter Exam Records Via Branch ,
+Name and Roll Number
+#4. Share App Component Data between Child Via Context.
+
+
+Section 4. Routing and Template Integration
+
+React Routing
+BrowserRouter , Routes , Route , and Link Component
+Template Integration
+Public and Private Routing
+
+*1. Create Multiple Component and route all components via Menu Bar.
+*2. Template Integrate via download from google.
+
+# Integrate these Templates :
+https://www.free-css.com/free-css-templates/page287/onix-digital
+https://www.free-css.com/free-css-templates/page287/dicet-tv
+https://www.free-css.com/free-css-templates/page284/pet-shop
+https://www.free-css.com/free-css-templates/page283/medinova
+
+Section 5. Function Component and Hooks
+
+Function Component and Rendering
+Hooks Introduction
+useState() , useEffect() , useRef() , useParam() , useContext()
+State and Props
+
+*1. Create all Previous Programs via Function Component.
+#1. Create Photo Gallery with add and delete images via Function Component. #2. Create To-Do List Program.
+
+Section 6. Web Communication
+
+Call Rest Apis via Fetch and Axios Module.
+GET , POST , PUT and DELETE Method
+File Uploading via FormData
+Use Emall Api for Practice
+Create Emall Admin Project with Class Component
+
+*1. Call Category List (GET) Api and show data in table.
+*2. Call Category Save (POST) Api and show the result. #1. Use this Api : https://dummyjson.com/users
+Show Data in Table in sorted order via age by default
+Manually change the Sorting via
+gender, blood group, weight, firstname #2. Use this Api : https://dummyjson.com/products
+
+Show Response Data in UI via Child Component
+
+Section 7. Redux
+
+Redux Introduction
+Action , Reducer and Store
+Dispatcher and Subscriber
+Manager data with Redux Store
+
+*1. Create Project which manage data between multiple components using Redux.
+*2. Shopping Cart Manage App
+
+#1. Create Online Exam Portal with maximum 20 Single Choice questions. After complete the exam result also show on screen. Maximum time for attempting one question is only 3 seconds.
+
+Section 8. Emall Project
+
+Implement Emall Api and create user panel with Registeration , Login , Cart and Purchase functionality.
+JWT Token Introduction and Implementation.
+
+*APIS : http://apps.skilledfresher.in/emall/apis/apis.txt #Project Api : http://apps.skilledfresher.in/chatbuddy/apis/apis.txt
