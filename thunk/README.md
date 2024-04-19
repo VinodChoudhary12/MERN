@@ -31,7 +31,7 @@ Step 6 – The store data is displayed back to frontend using useSelector hook
 ```
 
 **Let’s create Slice now
-Slice is the only file that will contain all the things needed to perform our operation
+Slice is the only file that will contain all the things needed to perform our operation**
 
 * initialState
 * reducers
