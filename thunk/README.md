@@ -29,3 +29,10 @@ Step 5 – And finally the state (or the global store) is updated
 
 Step 6 – The store data is displayed back to frontend using useSelector hook
 ```
+
+Let’s create Slice now
+Slice is the only file that will contain all the things needed to perform our operation
+
+initialState
+reducers
+extraReducers
