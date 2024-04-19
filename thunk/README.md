@@ -1,13 +1,14 @@
-The word "thunk" is a programming term that means "a piece of code that does some delayed work". 
+![Thunk](https://github.com/VinodChoudhary12/MERN/assets/140074392/1db8b3c4-c5fb-40d8-9964-0bc3fa9fc802)The word "thunk" is a programming term that means "a piece of code that does some delayed work". 
 Rather than execute some logic now, we can write a function body or code that can be used to perform the work later.
 
 For Redux specifically, "thunks" are a pattern of writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
 
 * Calling an API is not so straightforward while using the redux toolkit, and that’s why redux has a middleware name “createAsyncThunk()” which provided us with all the superpowers needed for handling API and response.*
   
-  <img src="[https://github.com/VinodChoudhary12/MERN/assets/140074392/0ec84aac-ec2e-4d03-94ba-bb70a0e81eef" width="500" height="500">
+ 
 
 
+![Thunk](https://github.com/VinodChoudhary12/MERN/assets/140074392/6a605c81-0bf8-4068-a913-aee881ebf300)
 Lets understand the flow –
 
 Step 1 – An action is performed on the front-end (let’s say a button click)
