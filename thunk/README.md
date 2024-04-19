@@ -13,15 +13,19 @@ For Redux specifically, "thunks" are a pattern of writing functions with logic i
 
 ![Thunk](https://github.com/VinodChoudhary12/MERN/assets/140074392/6a605c81-0bf8-4068-a913-aee881ebf300)
 Lets understand the flow –
-
+```
 Step 1 – An action is performed on the front-end (let’s say a button click)
 
-Step 2 – That action is dispatched (by using useDispatch hook) to the middleware “createAsyncThunk()” written inside slice file
+Step 2 – That action is dispatched (by using useDispatch hook)
+to the middleware “createAsyncThunk()” written inside slice file
 
-Step 3 – Inside createAsyncThunk() an API is made, using fetch or Axios, depending upon the method ie. GET, POST, DELETE, OR PUT
+Step 3 – Inside createAsyncThunk() an API is made, using fetch or Axios,
+depending upon the method ie. GET, POST, DELETE, OR PUT
 
-Step 4 – Now the response from the above is handled by the extraReducer , written inside createSlice method
+Step 4 – Now the response from the above is handled by the extraReducer ,
+written inside createSlice method
 
 Step 5 – And finally the state (or the global store) is updated
 
 Step 6 – The store data is displayed back to frontend using useSelector hook
+```
