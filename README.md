@@ -1,7 +1,7 @@
 
 
 
-Section 1 – React Introduction
+**Section 1 – React Introduction**
 
 React Introduction and Setup
 React Project Structure
