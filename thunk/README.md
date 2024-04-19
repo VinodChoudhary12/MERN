@@ -1,6 +1,7 @@
 ```
 The word "thunk" is a programming term that means "a piece of code that does some delayed work". 
-Rather than execute some logic now, we can write a function body or code that can be used to perform the work later.
+Rather than execute some logic now,
+we can write a function body or code that can be used to perform the work later.
 ```
 
 For Redux specifically, "thunks" are a pattern of writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
