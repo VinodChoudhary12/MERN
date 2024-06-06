@@ -18,8 +18,6 @@ function SignUp() {
             let email = emailInput.current.value;
             let password = passwordInput.current.value;
             let contact = contactInput.current.value;
-
-
             var response = await axios.post(WebApi.userSignUp, { username, email, password, contact });
             console.log(response);
             toast.success("Sign up success! Please sign in.");
