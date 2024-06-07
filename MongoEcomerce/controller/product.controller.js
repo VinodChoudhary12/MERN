@@ -1,3 +1,4 @@
+
 import { uploadOnCloudinary } from "../middleware/cloudinary.js";
 import product from "../model/product.model.js"
 export const saveInBulk = async (req, res) => {
@@ -97,3 +98,4 @@ export const deleteProduct = async (req, res) => {
         return res.status(500).json({ message: "Internal Server Error" })
     }
 }
+

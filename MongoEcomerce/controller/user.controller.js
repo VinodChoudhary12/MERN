@@ -1,3 +1,4 @@
+
 import bcryptjs from "bcryptjs";
 import { validationResult } from "express-validator";
 import user from "../model/user.model.js";
@@ -43,4 +44,4 @@ export const loginController = async (req, res) => {
 
 }
 
- 
+
