@@ -8,7 +8,11 @@ const productSchema=mongoose.Schema({
     rating: Number,
     stock: Number,
     brand: String,
-    categoryname: String,
+    categoryname:
+    {
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"category"
+    }, 
     thumbnail: String,
     images: Array,
     warrantyInformation:String

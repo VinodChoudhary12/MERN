@@ -2,6 +2,7 @@ import bcryptjs from "bcryptjs";
 import { validationResult } from "express-validator";
 import user from "../model/user.model.js";
 import jwt from "jsonwebtoken";
+import { json } from "express";
 
 export const singupController = async (req, res) => {
     const { name, contact, email, password } = req.body;
@@ -43,4 +44,18 @@ export const loginController = async (req, res) => {
 
 }
 
- 
+
+export const getUserById = async (req, res) => {
+    const id = req.params.id;
+    const User = await user.findById(id)
+    if (!User)
+        return res.status(404).json("User not Found")
+
+
+    return res.status(200).json({ message: "User Found", user: User })
+}
+
+
+
+
+
