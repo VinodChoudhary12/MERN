@@ -1,3 +1,4 @@
+
 import mongoose from "mongoose";
 const productSchema=mongoose.Schema({
     "id":Number,
@@ -8,16 +9,13 @@ const productSchema=mongoose.Schema({
     rating: Number,
     stock: Number,
     brand: String,
-    categoryname:
-    {
-        type:mongoose.Schema.Types.ObjectId,
-        ref:"category"
-    }, 
+    categoryname: String,
     thumbnail: String,
     images: Array,
     warrantyInformation:String
 })
 
 const product = mongoose.model("product",productSchema)
+
 
 export default product;

@@ -1,3 +1,4 @@
+
 import jwt from "jsonwebtoken";
 
 const auth = async (req, res, next) => {
@@ -9,7 +10,7 @@ const auth = async (req, res, next) => {
     jwt.verify(token, "This is my secret key");
     next();
   } catch (err) {
-
+    console.log(err);
     return res.status(401).json("Unhothorized Access");
   }
 };
