@@ -24,7 +24,6 @@ export const singupController = async (req, res) => {
 };
 
 export const loginController = async (req, res) => {
-
     try {
         const { email, contact, password } = req.body
         const User = await user.findOne({
@@ -43,5 +42,6 @@ export const loginController = async (req, res) => {
     }
 
 }
+
 
 
