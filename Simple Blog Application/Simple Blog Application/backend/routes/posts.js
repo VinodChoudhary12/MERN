@@ -88,6 +88,8 @@ router.get("/", async (req, res) => {
 router.get("/user/:userId", async (req, res) => {
     try {
         const posts = await Post.find({ userId: req.params.userId })
+        if (!posts)
+            res.status(200).json("You Not Have Post")
         res.status(200).json(posts)
     }
     catch (err) {
