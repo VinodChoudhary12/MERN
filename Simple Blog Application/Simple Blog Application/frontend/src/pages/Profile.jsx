@@ -14,8 +14,6 @@ const Profile = () => {
 
   const [username, setUsername] = useState(user.user.username)
   const [email, setEmail] = useState(user.user.email)
-  const [password, setPassword] = useState("")
-
   const navigate = useNavigate()
   const [posts, setPosts] = useState([])
   const [updated, setUpdated] = useState(false)
@@ -23,23 +21,21 @@ const Profile = () => {
 
   const fetchProfile = async () => {
     try {
+      fetchUserPosts()
       const res = await axios.get(URL + "/api/users/" + user.user._id)
       setUsername(res.data.username)
       setEmail(res.data.email)
-      setPassword(res.data.password)
     }
     catch (err) {
       console.log(err)
     }
   }
-
   const handleUserUpdate = async () => {
     setUpdated(false)
     try {
       const res = await axios.patch(URL + "/api/users/" + user.user._id, { username, email }, { withCredentials: true })
       console.log(res.data)
       setUpdated(true)
-
     }
     catch (err) {
       console.log(err)
@@ -63,8 +59,8 @@ const Profile = () => {
   // console.log(user)
   const fetchUserPosts = async () => {
     try {
-      const res = await axios.get(URL + "/api/posts/user/" + user._id)
-      // console.log(res.data)
+      const res = await axios.get(URL + "/api/posts/user/" + user.user._id)
+      console.log(res.data)
       setPosts(res.data)
 
 
